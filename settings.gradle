@@ -1,0 +1,1 @@
+include ':circleimageview', ':lib_slidingmenu', ':SMSSDK', ':library', ':八闽出行', ':CheckBox', ':slideDateTimePicker', ':library_refreash', ':lib_shane'

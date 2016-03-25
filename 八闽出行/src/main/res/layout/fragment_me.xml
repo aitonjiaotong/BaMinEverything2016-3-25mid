@@ -1,0 +1,91 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.aiton.administrator.busline_aition_fragment.OffRemindFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bg_gray"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_me_title"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/bg_white"
+            android:gravity="center"
+            style="@style/tv_title_actionbar"
+            android:text="@string/tab_me" />
+
+        <LinearLayout
+            android:background="@color/bg_white"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+                <TextView
+                    android:textSize="@dimen/normalTextSize"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="震动提醒"
+                    android:id="@+id/textView11"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginStart="23dp"/>
+                <com.aiton.bamin.changtukepiao.ZcustomView.UISwitchButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginEnd="19dp"/>
+            </RelativeLayout>
+
+            <LinearLayout
+                android:background="@color/fengexian_color"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="0.8dp">
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+                <TextView
+                    android:textSize="@dimen/normalTextSize"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="响铃提醒"
+                    android:id="@+id/textView12"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginStart="23dp"/>
+                <com.aiton.bamin.changtukepiao.ZcustomView.UISwitchButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginEnd="19dp"/>
+            </RelativeLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

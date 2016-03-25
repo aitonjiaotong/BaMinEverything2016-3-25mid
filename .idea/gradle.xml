@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleJvm" value="1.8" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/CheckBox" />
+            <option value="$PROJECT_DIR$/SMSSDK" />
+            <option value="$PROJECT_DIR$/circleimageview" />
+            <option value="$PROJECT_DIR$/lib_shane" />
+            <option value="$PROJECT_DIR$/lib_slidingmenu" />
+            <option value="$PROJECT_DIR$/library" />
+            <option value="$PROJECT_DIR$/library_refreash" />
+            <option value="$PROJECT_DIR$/slideDateTimePicker" />
+            <option value="$PROJECT_DIR$/八闽出行" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
